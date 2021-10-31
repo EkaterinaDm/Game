@@ -1,0 +1,91 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takePowerOfProtection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"protection","type":"uint256"}
+			]
+		},
+		{
+			"name": "takeAttack",
+			"inputs": [
+				{"name":"powerAttack","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deathHandling",
+			"inputs": [
+				{"name":"dest","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "selfDestruction",
+			"inputs": [
+				{"name":"dest","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "lives",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"lives","type":"uint256"}
+			]
+		},
+		{
+			"name": "addressAttacking",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"addressAttacking","type":"address"}
+			]
+		},
+		{
+			"name": "damage",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"damage","type":"uint256"}
+			]
+		},
+		{
+			"name": "protection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"protection","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"lives","type":"uint256"},
+		{"name":"addressAttacking","type":"address"},
+		{"name":"damage","type":"uint256"},
+		{"name":"protection","type":"uint256"}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takePowerOfAttack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"attack","type":"uint256"}
+			]
+		},
+		{
+			"name": "takePowerOfProtection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"protection","type":"uint256"}
+			]
+		},
+		{
+			"name": "takeLives",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"livesLeft","type":"uint256"}
+			]
+		},
+		{
+			"name": "Attack",
+			"inputs": [
+				{"name":"addressAttack","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deathHandling",
+			"inputs": [
+				{"name":"dest","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeAttack",
+			"inputs": [
+				{"name":"powerAttack","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "selfDestruction",
+			"inputs": [
+				{"name":"dest","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "lives",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"lives","type":"uint256"}
+			]
+		},
+		{
+			"name": "addressAttacking",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"addressAttacking","type":"address"}
+			]
+		},
+		{
+			"name": "damage",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"damage","type":"uint256"}
+			]
+		},
+		{
+			"name": "protection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"protection","type":"uint256"}
+			]
+		},
+		{
+			"name": "attack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"attack","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"lives","type":"uint256"},
+		{"name":"addressAttacking","type":"address"},
+		{"name":"damage","type":"uint256"},
+		{"name":"protection","type":"uint256"},
+		{"name":"attack","type":"uint256"},
+		{"name":"attackArcher","type":"uint256"},
+		{"name":"protectionArcher","type":"uint256"}
+	]
+}
